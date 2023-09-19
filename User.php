@@ -29,8 +29,8 @@ class User {
         }
     }
 
-    public function getAge() {
-        return $this->age;
+    public function testAge($age) {
+            echo "Test age!";
     }
 
     public function displayUserInfo() {
