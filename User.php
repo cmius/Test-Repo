@@ -6,14 +6,17 @@ class User {
     private $age;
 
     public function setUsername($username) {
+        Echo "Update username";
         $this->username = $username;
     }
 
     public function getUsername() {
+        Echo "Get username";
         return $this->username;
     }
 
     public function getEmail() {
+        Echo "Get Email";
         return $this->email;
     }
 
